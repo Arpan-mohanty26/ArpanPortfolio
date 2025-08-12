@@ -29,6 +29,16 @@ const projects = [
   github: "https://github.com/finden-qa",
   live: "https://findenlive.com"
 
+  },
+  {
+    title: "MoonChase- Weather at Lightening Speed",
+  description:
+    "This project is a modern weather application called MoonChase, designed to provide real-time weather data and a 5-day forecast. The application was built with a focus on a clean, dynamic, and responsive user interface.",
+  tech: ["React", "TailwindCSS", "OpenWeather API"],
+  gradient: "from-red-500 to-pink-500",
+  github: "https://github.com/Arpan-mohanty26/MoonChase",
+  live: "https://moonchase.vercel.app/"
+
   }
   
 ];
