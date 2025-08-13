@@ -6,16 +6,16 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-800" />
  
       <div
-        className="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"
+        className="absolute top-20 left-20 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-pulse"
         data-aos="fade-up"
       />
       <div
-        className="absolute top-40 right-20 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"
+        className="absolute top-40 right-20 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-pulse"
         data-aos="fade-down"
         data-aos-delay="500"
       />
       <div
-        className="absolute -bottom-8 left-40 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"
+        className="absolute -bottom-8 left-40 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-pulse"
         data-aos="fade-up"
         data-aos-delay="1000"
       />
@@ -68,7 +68,7 @@ export default function Hero() {
           </a>
         </div><br/>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-white/60" />
+          <ChevronDown className="w-12 h-10 text-white/100" />
         </div>
       </div>
     </section>
